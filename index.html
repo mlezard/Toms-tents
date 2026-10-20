@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -14,27 +14,44 @@
     }
     </style>
 </head>
-
-<body>
-    <h1>Tom's Tents</h1>
-    <nav>
-        <a href="./index.html" class="navbar">Home page</a>
-        <a href="./shop.html" class="navbar">Shop</a>
-        <a href="./workshop.html" class="navbar">Workshop</a>
-        <a href="./about-us.html" class="navbar index">About us</a>
-    </nav>
-
-    <h2>Contact number</h2>
-    <div id="carouselExampleFade" class="carousel carousel-fade">
+<!-- BEGIN NAVBAR HTML -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Tom's Tents</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="workshops.html">Workshops</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search our products..." aria-label="Search"/>
+              <button class="btn btn-outline-success" type="submit">Go</button>
+            </form>
+            <div class="container-fluid">
+                <p>+44 0909 454545<br><sub>10am - 6pm, Monday to Saturday (closed on Sundays)</sub></p>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- END NAVBAR HTML -->
+  
+  <div id="carouselExampleFade" class="carousel carousel-fade">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="./assets/camping-setup.png" class="d-block w-100 rounded-5" alt="camping image">
+                <img src="./assets/camping_image_01.png" class="d-block w-100 rounded-5" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="./assets/camping_image_02.jpeg" class="d-block w-100 rounded-5" alt="couple camping">
-            </div>
-            <div class="carousel-item">
-                <img src="./assets/camping_image_03.png" class="d-block w-100 rounded-5" alt="camping">
+                <img src="./assets/camping_image_02.png" class="d-block w-100 rounded-5" alt="...">
             </div>
         </div>
         <div>
@@ -48,8 +65,14 @@
             </button>
         </div>
     </div>
-
-    <footer></footer>
+<body>
+    <h1>Tom's Tents</h1>
+    <nav>
+        <a href="./index.html" class="navbar">Home page</a>
+        <a href="./shop.html" class="navbar">Shop</a>
+        <a href="./workshop.html" class="navbar">Workshop</a>
+        <a href="./about-us.html" class="navbar index">About us</a>
+    </nav>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
