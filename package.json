@@ -1,0 +1,26 @@
+{
+  "devDependencies": {
+    "watchify": "^4.0.0"
+  },
+  "name": "toms-tents",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  
+  "scripts": {
+        "dev": "watchify ./script.js -o bundle.js -v"
+  },
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlezard/Toms-tents.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+"bugs": {
+    "url": "https://github.com/mlezard/Toms-tents/issues"
+  },
+  "homepage": "https://github.com/mlezard/Toms-tents#readme"
+}
+
