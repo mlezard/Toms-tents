@@ -1,0 +1,57 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    font-size: 2.5rem;      /* 40px */
+    color: #2e4f3e;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2rem;        /* 32px */
+    color: #2e4f3e;
+    margin-bottom: 0.75rem;
+}
+
+h3 {
+    font-size: 1.5rem;      /* 24px */
+    color: #2e4f3e;
+}
+
+
+p {
+    font-size: 1rem;        /* 16px */
+    margin-bottom: 1rem;
+}
+
+
+.intro {
+    font-size: 1.25rem;     /* 20px */
+    font-weight: 600;
+    color: #4a6741;
+}
+
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #4a6741;
+    margin: 20px 0;
+}
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
